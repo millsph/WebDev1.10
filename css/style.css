@@ -1,0 +1,213 @@
+.jumbotron {
+    background: url('../img/landscape.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
+    background-size:cover;
+}
+
+.jumbotron p {
+    color: white;
+}
+
+/*////////////////////////////
+///////////// Contact_page ///*/
+
+.container-fluid {
+    padding: 0em;
+    position: relative;
+}
+
+.carousel-caption {
+    top: 40%;
+    transform: translate(-50%, -50%);
+    display: block;
+    left: 50%;
+    width: 80%;
+}
+
+.nav {
+    /* display: inline-block;*/
+    position: fixed;
+    width: 100%;
+    top: 0;
+    /* padding: 20px;*/
+    z-index: 1;
+}
+
+ .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav li {
+    float: right;
+}
+
+.nav li a {
+    display: inline-block;
+    color: white;
+    text-align: centre;
+    padding: 1.25em 1.25em;
+    text-decoration: none;
+    transition: color 1000ms;
+    -webkit-transition: color 1000ms;
+}
+
+.nav a:hover {
+    color: #f50;
+    text-decoration: none;
+}
+
+.mycontainer {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Calibri, Book Antiqua, Tahoma, Verdana;
+    font-size: 1.125em;
+    text-align: left;
+}
+
+.mycontainer .column {
+    width: 70%;
+    height: auto;
+    display: inline-block;
+    float: bottom;
+    padding: 0.625em 1.25em 0.625em 1.875em ;
+}
+
+.mycontainer .email {
+    /* padding: 0 50px;*/
+    font-family: Calibri;
+    font-size: 1.125em;   /* 18px  */
+    font-weight: 400;
+    /* padding: 10px 20px 10px 30px;  0.625em 1.25em 0.625em 1.875em */
+    margin-left: -0.625em;
+    background-color: #f9c5bc;
+    color: #654321;
+}
+
+.mycontainer .mobile {
+    font-family: Calibri;
+    font-size: 1.125em;   /* 18px  */
+    font-weight: 400;
+    margin-left: -0.625em;
+    background-color: #f9c5bc;
+    color: #654321;
+}
+
+.mycontainer .thanks {
+    font-family: Calibri;
+    font-size: 1.125em;   /* 18px  */
+    font-weight: 400;
+}
+
+.mycontainer .header h1, h2 {
+    text-align: left;
+    font-family: Tahoma, Verdana;
+}
+
+.contact-page {
+    background: url("../img/little-2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
+    background-size:cover;
+    /*color: black;*/
+}
+
+/*////////  project page ////
+   //////////////////////////*/
+.project-page {
+    background-color: #eafaf1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
+    background-size:cover;
+    text-align: centre;
+}   
+
+.project-page h3 {
+   text-align: center ;
+}
+
+/* //////////// FAQ.html /////// */
+.faq-page {
+    /* background-color: #eafaf1;*/
+    background: url("../img/beach-sand-rock.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
+    background-size:cover;
+}
+
+.mycontainer .panel-heading {
+    background-color: #f9c5bc;
+    color: #654321;
+}
+
+.mycontainer .panel-title {
+    font-family: Calibri;
+    font-size: 1.125em;   /* 18px  */
+    font-weight: 400;
+}
+
+.mycontainer .panel-body {
+    font-family: Calibri;
+    font-size: 1em;   /* 16px  */
+    font-weight: 200;
+}
+
+/* //////////// About.html /////// */
+
+.about-page { 
+    /*background-color: #eafaf1; */
+    background: url("../img/waves.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
+    background-size:cover;
+}
+
+.about-page h2 {
+   text-align: center ;
+}
+
+#about-c1{
+    padding: 10px 20px; 
+    margin-left: 10px;
+}
+
+#about-c2{
+    padding: 10px 20px; 
+    margin-left: 10px;
+}
+#about-c3 {
+    font-size: 13px;
+    color:brown;
+    background-color: #5AD4C2;
+}
+
+#skill-list {
+    padding: 10px 20px;
+    margin-left: 10px;
+    /*background-color: #5AD4C2; */
+    color: #FFF;
+    text-transform: none;   
+}
+
+/* Typography */
+h1,h2,h3 {
+    text-align: left;
+    font-family: Futura, Helvetica, Arial,Sans-serif;
+}
+
+@media (max-width:30em) {
+    body {
+       background-color: red;
+    } 
+}
